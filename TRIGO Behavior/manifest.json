@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "TRIGO (Behavior)",
+		"description": "TRIGO Behavior Pack 1.0.20",
+		"uuid": "093a2a66-76ac-6533-dd01-2551afc6c066",
+		"version": [1, 0, 20],
+		"min_engine_version": [1, 21, 20]
+	},
+	"metadata": {
+		"authors": ["Farm Crusaders"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.4.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "3bcbe0a7-15a5-affb-d112-af915f23c80a",
+			"type": "data"
+		},
+		{
+			"description": "Scripts",
+			"version": [1, 0, 2],
+			"uuid": "2b90c9ae-f48d-41f7-8e7e-89076e3214ad",
+			"type": "script",
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9a97970d-4905-4aba-c0aa-4b79a0f80ca2",
+			"version": [1, 0, 7]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	]
+}

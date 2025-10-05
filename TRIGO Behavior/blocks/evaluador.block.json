@@ -1,0 +1,29 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "trigo:evaluador",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": false,
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:geometry": "geometry.evaluador",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "evaluador",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:map_color": "#3a3c3d",
+			"minecraft:crafting_table": {
+				"crafting_tags": [],
+				"table_name": "Evaluador"
+			}
+		}
+	}
+}
